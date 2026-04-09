@@ -1,69 +1,12 @@
 {
-  "generated": "2026-04-09T07:00:00Z",
+  "generated": "2026-04-09T13:26:50.310Z",
   "items": [
     {
-      "title": "Why Most Process Improvements Fail Before They Start",
-      "source": "Lenny's Newsletter",
-      "url": "https://www.lennysnewsletter.com",
-      "category": "ops",
-      "summary": "Lenny Rachitsky breaks down the most common reason operational change stalls: no one owns the outcome after the kickoff meeting. A practical framework for assigning accountability that actually sticks.",
-      "published": "2026-04-09T06:00:00Z"
-    },
-    {
-      "title": "Claude Now Handles Multi-Step Workflows Without Human Checkpoints",
-      "source": "Every.to — Dan Shipper",
-      "url": "https://every.to",
-      "category": "ai",
-      "summary": "Anthropic's latest agent update enables Claude to execute complex multi-tool workflows end-to-end. For ops consultants, this changes what's automatable today versus what needed human review yesterday.",
-      "published": "2026-04-09T05:30:00Z"
-    },
-    {
-      "title": "Build a Client Onboarding System in Notion in Under 2 Hours",
-      "source": "Notion Blog",
-      "url": "https://www.notion.so/blog",
-      "category": "nocode",
-      "summary": "Step-by-step walkthrough of a relational Notion workspace for client onboarding: intake form, project database, SOP library, and automated status updates with no external tools required.",
-      "published": "2026-04-08T14:00:00Z"
-    },
-    {
-      "title": "Small Business Owners Are Spending 11 Hours a Week on Tasks AI Could Handle",
-      "source": "Inc. Magazine",
-      "url": "https://www.inc.com",
-      "category": "smb",
-      "summary": "New survey of 2,400 SMB owners puts a concrete number on the automation opportunity. The biggest time sinks: scheduling, status reporting, and invoice follow-up — all low-complexity, high-frequency.",
-      "published": "2026-04-08T12:00:00Z"
-    },
-    {
-      "title": "n8n Raises $55M to Compete With Zapier on Enterprise Automation",
-      "source": "The Verge",
-      "url": "https://www.theverge.com",
-      "category": "tech",
-      "summary": "n8n's Series B signals that the no-code automation market is splitting into consumer-simple (Zapier) and developer-flexible (n8n). For consultants, this matters because clients will increasingly ask which tool to build on.",
-      "published": "2026-04-09T04:00:00Z"
-    },
-    {
-      "title": "AI Assistants Are Making Middle Managers Worse, Not Better",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com",
-      "category": "ainews",
-      "summary": "A contrarian read from MIT: AI tools that summarize meetings and generate status reports are creating a generation of managers who can produce the appearance of oversight without doing the thinking. Worth having in your back pocket when clients ask whether to automate their reporting.",
-      "published": "2026-04-08T16:00:00Z"
-    },
-    {
-      "title": "The Constraint Theory Comeback: Why TOC Is the Framework for AI-Era Ops",
-      "source": "Process Street Blog",
-      "url": "https://www.process.st",
-      "category": "ops",
-      "summary": "Process Street revisits Goldratt's Theory of Constraints and argues it's more relevant now that AI can clear bottlenecks instantly — making it critical to identify the right constraint before you automate anything.",
-      "published": "2026-04-08T10:00:00Z"
-    },
-    {
-      "title": "Make.com vs n8n in 2026: An Honest Comparison for Non-Technical Teams",
-      "source": "No Code Founders",
-      "url": "https://nocodefounders.com",
-      "category": "nocode",
-      "summary": "Side-by-side breakdown across pricing, complexity ceiling, and reliability for SMB use cases. The verdict is more nuanced than most comparisons: Make.com wins on speed, n8n wins on flexibility above 20 steps.",
-      "published": "2026-04-07T11:00:00Z"
+      "title": "Mustafa Suleyman: AI development won’t hit a wall anytime soon—here’s why",
+      "url": "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
+      "summary": "We evolved for a linear world. If you walk for an hour, you cover a certain distance. Walk for two hours and you cover double that distance. This intuition served us well on the savannah. But it catastrophically fails when confronting AI and the core exponential trends at its heart. From the time I ",
+      "published": "2026-04-08T14:00:00.000Z",
+      "source": "MIT Technology Review"
     }
   ]
 }
