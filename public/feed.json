@@ -1,6 +1,6 @@
 {
   "feed": {
-    "generated": "2026-04-09T14:21:19.814Z",
+    "generated": "2026-04-09T14:22:54.652Z",
     "items": [
       {
         "title": "Silicon Valley in Convenience Store Snack Aisles",
@@ -159,6 +159,246 @@
         "url": "https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy",
         "summary": "Article URL: https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy\nComments URL: https://news.ycombinator.com/item?id=47702499\nPoints: 15\n# Comments: 0",
         "published": "2026-04-09T11:56:56.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Samsung to Invest $4 Billion in Chip Packaging Site in Vietnam",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam",
+        "summary": "Samsung Electronics Co. plans a $4 billion outlay to build a chip packaging plant in northern Vietnam, as the country’s largest foreign investor expands its footprint in the country.",
+        "published": "2026-04-09T11:44:18.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Want to Raise Successful (and Happy) Kids? Science Says Start Asking Them These Kinds of Questions",
+        "url": "https://www.inc.com/jeff-haden/want-to-raise-successful-and-happy-kids-science-says-start-asking-them-these-kinds-of-questions/91328963",
+        "summary": "Or more to the point, that they should ask themselves.",
+        "published": "2026-04-09T11:24:33.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "CoreWeave, Meta Strike Another $21 Billion Deal for AI Computing",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/coreweave-expands-meta-deal-for-ai-computing-to-21-billion",
+        "summary": "CoreWeave Inc. has struck another, much larger $21 billion deal to supply computing power to Meta Platforms Inc. through 2032, deepening its business with the social media giant that’s trying to catch up in the race to build more powerful artificial intelligence models.",
+        "published": "2026-04-09T11:19:45.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Anthropic Is the Center of the AI Orbit at HumanX Conference",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-04-09/anthropic-dominates-the-discussion-at-the-humanx-ai-conference",
+        "summary": "The AI company is the industry marker for startup founders and VCs",
+        "published": "2026-04-09T11:02:01.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Meta Cafeteria Workers Did What Execs Won’t: Took on ICE and Won",
+        "url": "https://www.wired.com/story/how-meta-cafeteria-workers-rallied-to-take-on-ice/",
+        "summary": "In Seattle, activists inside tech giants are leaning into grassroots fundraising and peer support as petitions and protests draw little response from executives.",
+        "published": "2026-04-09T11:00:00.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "TCS Tops Profit Estimates After Cost Cuts to Cope With IT Slump",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/tcs-tops-profit-estimates-after-cost-cuts-to-cope-with-it-slump",
+        "summary": "Tata Consultancy Services Ltd.’s quarterly earnings topped analysts’ estimates after the information technology provider curbed costs to cope with slowing demand in an era of geopolitical tensions.",
+        "published": "2026-04-09T10:36:43.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Nvidia Shares Near Level Where Technical Traders See a Breakout",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/nvidia-shares-near-level-where-technical-traders-see-a-breakout",
+        "summary": "After months of sluggish returns, Nvidia Corp.’s stock is rallying again and close to breaking out of its narrow trading range, which market technicians see as a bullish signal.",
+        "published": "2026-04-09T10:36:37.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "46 Fastest-Growing Companies in Los Angeles to Watch",
+        "url": "https://www.inc.com/mariapaula-gonzalez/46-fastest-growing-companies-in-los-angeles-to-watch/91325019",
+        "summary": "All of these businesses from the Los Angeles metro area were honored on the 2026 Inc. Regionals list of fast-growing companies.",
+        "published": "2026-04-09T10:30:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Wit, unker, Git: The lost medieval pronouns of English intimacy",
+        "url": "https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us",
+        "summary": "Article URL: https://www.bbc.com/future/article/20260408-the-extinct-english-words-for-just-the-two-of-us\nComments URL: https://news.ycombinator.com/item?id=47701572\nPoints: 69\n# Comments: 31",
+        "published": "2026-04-09T10:10:19.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "China EV Exports Jump to Record as Iran Oil Shock Entices Buyers",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/china-ev-exports-jump-to-record-as-iran-oil-shock-entices-buyers",
+        "summary": "China’s exports of electric vehicles and hybrids more than doubled in March to a record as the global energy shock stemming from the Iran war renewed interest in EVs.",
+        "published": "2026-04-09T10:09:24.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "I Quadrupled My Revenue With a Newsletter in 6 Months. Here’s How Startup Founders Can Do the Same",
+        "url": "https://www.inc.com/ashley-couto/newsletter-quadrupled-revenue-klaviyo-beehiiv-kit-substack-startup-founders/91328673",
+        "summary": "Newsletters can serve as a primary business model, an added revenue stream or a tool to drive more sales.",
+        "published": "2026-04-09T10:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Most Managers Avoid Giving Tough Feedback. Here Are 4 Ways to Fix That",
+        "url": "https://www.inc.com/naomi-carmen/managers-avoid-tough-feedback-startup-founders/91328493",
+        "summary": "These four moves can turn uncomfortable conversations into your most effective management tool.",
+        "published": "2026-04-09T10:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Forget the Full-Body Freeze. The Next Big Trend in Longevity Tech Is ‘Brain-Only’ Preservation",
+        "url": "https://www.inc.com/lucia-auerbach/forget-the-full-body-freeze-the-next-big-trend-in-longevity-tech-is-brain-only-preservation/91327292",
+        "summary": "Brain-only cryopreservation is rising in popularity as a faster, cheaper alternative to full-body vitrification. Will it work? ",
+        "published": "2026-04-09T10:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "OpenAI Pauses Stargate UK Data Center Citing Energy Costs",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/openai-pauses-stargate-uk-data-center-effort-citing-energy-costs",
+        "summary": "OpenAI said it is pausing its Stargate artificial intelligence infrastructure project in the UK, as it reins in ambitious spending plans ahead of a highly anticipated public listing.",
+        "published": "2026-04-09T09:32:29.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Apple’s AirPods Max 2 Aren’t a Worthy Sequel to the Original",
+        "url": "https://www.bloomberg.com/news/features/2026-04-09/apple-airpods-max-2-review-only-minor-upgrades-pricier-than-the-competition",
+        "summary": "Apple Inc.’s AirPods Max 2 &mdash; the first substantial update to the company’s $549 headphones &mdash; don’t represent an upgrade-worthy sequel but should intrigue customers looking to buy the brand’s over-ear offering for the first time.",
+        "published": "2026-04-09T09:30:06.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Listening to Complainers Destroys Your Happiness, Experts Say. Here’s How to Protect Yourself",
+        "url": "https://www.inc.com/minda-zetlin/listening-to-complainers-destroys-your-happiness-experts-say-heres-how-to-protect-yourself/91327810",
+        "summary": "Humans tend to reflect each others’ facial expressions–and mood.",
+        "published": "2026-04-09T09:30:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "A New Study Found That There Are 4 Core Skills Every Leader Should Hone",
+        "url": "https://www.inc.com/marcel-schwantes/new-study-core-skills-leaders-should-hone/91327165",
+        "summary": "Leaders need to master the skill of attunement—the ability to be deeply aware of people’s needs. ",
+        "published": "2026-04-09T09:30:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Claude mixes up who said what and that's not OK",
+        "url": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+        "summary": "Article URL: https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html\nComments URL: https://news.ycombinator.com/item?id=47701233\nPoints: 226\n# Comments: 212",
+        "published": "2026-04-09T09:25:28.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "FreeBSD Laptop Compatibility: Top Laptops to Use with FreeBSD",
+        "url": "https://freebsdfoundation.github.io/freebsd-laptop-testing/",
+        "summary": "Article URL: https://freebsdfoundation.github.io/freebsd-laptop-testing/\nComments URL: https://news.ycombinator.com/item?id=47701148\nPoints: 50\n# Comments: 13",
+        "published": "2026-04-09T09:17:25.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Creating the Futurescape for the Fifth Element [2019]",
+        "url": "https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element",
+        "summary": "Article URL: https://theasc.com/articles/fantastic-voyage-creating-the-futurescape-for-the-fifth-element\nComments URL: https://news.ycombinator.com/item?id=47701100\nPoints: 67\n# Comments: 37",
+        "published": "2026-04-09T09:11:37.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Attention and effort",
+        "url": "https://seths.blog/2026/04/attention-and-effort/",
+        "summary": "The door-to-door salesperson had no leverage. If he was at your door, he wasn&#8217;t at anyone else&#8217;s door. Every minute you spent with him was a minute he had to spend with you. While it was a tough gig, no one doubted that something was motivating this person enough to put at least as much ",
+        "published": "2026-04-09T09:03:00.000Z",
+        "source": "Seth's Blog",
+        "category": "smb"
+      },
+      {
+        "title": "Markets Are Cheering a Fragile Geopolitical Pause",
+        "url": "https://www.inc.com/phil-rosen/stock-market-outlook-iran-us-ceasefire-investors-strait-hormuz/91328741",
+        "summary": "The U.S. and Iran’s ceasefire rests on shaky variables.",
+        "published": "2026-04-09T09:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Quest Nutrition Co-Founder Tom Bilyeu Built a $1 Billion Brand Using 1 Uncomfortable Rule About Emotions",
+        "url": "https://www.inc.com/daniel-robbins/quest-nutrition-co-founder-tom-bilyeu-built-a-1-billion-brand-using-1-uncomfortable-rule-about-emotions/91328268",
+        "summary": "Quest founder Tom Bilyeu argues that the ultimate competitive advantage isn’t a better algorithm—it’s a better-regulated mind.",
+        "published": "2026-04-09T09:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Nearly Half of Small Businesses Are Increasing Their AI Budgets in 2026—and Not for the Reason You Think",
+        "url": "https://www.inc.com/steve-strauss/nearly-half-of-small-businesses-are-increasing-their-ai-budgets-in-2026-and-not-for-the-reason-you-think/91327503",
+        "summary": "Why small business owners are investing in AI to reclaim time, cut costs, and stop doing the work they hate.",
+        "published": "2026-04-09T09:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "What Most People Totally Misunderstand About Steve Jobs: He Was Hilarious",
+        "url": "https://www.inc.com/jessica-stillman/what-most-people-totally-misunderstand-about-steve-jobs-he-was-hilarious/91325916",
+        "summary": "Have you ever heard the story of that time Steve Jobs mooned Al Gore? ",
+        "published": "2026-04-09T09:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "How Sofie Pavitt Built a 8-Figure Skin Care Brand by Ignoring Beauty’s Branding Playbook",
+        "url": "https://www.inc.com/viktoriia-vasileva/how-sofie-pavitt-built-a-8-figure-skin-care-brand-by-ignoring-beautys-branding-playbook/91321069",
+        "summary": "By borrowing from fashion, the esthetician-turned-founder built a breakout brand for adults with acne.",
+        "published": "2026-04-09T09:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Amazon Just Sent Its Most Loyal Kindle Customers the Worst Thank-You Note of All Time",
+        "url": "https://www.inc.com/jason-aten/amazon-just-sent-its-most-loyal-kindle-customers-the-worst-thank-you-note-of-all-time/91328876",
+        "summary": "The company is cutting off its oldest Kindle models starting next month. ",
+        "published": "2026-04-09T08:22:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Goldman-Backed Go Taxi App Said to Plan Japan IPO This Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/goldman-backed-go-taxi-app-is-said-to-plan-japan-ipo-this-year",
+        "summary": "Japan’s most popular taxi-hailing provider Go Inc. is planning an initial public offering this year which could raise several hundred million dollars, according to people familiar with the matter.",
+        "published": "2026-04-09T08:14:16.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Thomas Peterffy on IBKR's Plan to Professionalize Prediction Markets",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/thomas-peterffy-on-ibkr-plan-for-prediction-markets",
+        "summary": "A legendary trading entrepreneur says prediction markets are the next big thing.",
+        "published": "2026-04-09T08:00:04.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Odd Lots: Thomas Peterffy on IBKR’s Prediction Markets (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2026-04-09/odd-lots-thomas-peterffy-on-ibkr-s-prediction-markets-podcast",
+        "summary": "Right now, when you think about prediction markets, you basically think about two main companies: Polymarket and Kalshi. And then when you think of what’s being traded on those platforms, there’s a whole range of stuff from elections to sports to real economic outcomes, to totally gonzo random stuff",
+        "published": "2026-04-09T08:00:00.000Z",
         "source": "Unknown",
         "category": "tech"
       }
