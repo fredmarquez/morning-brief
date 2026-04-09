@@ -395,9 +395,10 @@ async function loadFeed(force = false) {
     const res = await fetch(`./feed.json?t=${force ? Date.now() : Math.floor(Date.now()/3600000)}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    allItems = data.items || [];
+    allItems = (data.items || (data.feed && data.feed.items)) || [];
 
-    const generated = data.generated ? new Date(data.generated) : null;
+
+    const generated = (data.generated || (data.feed && data.feed.generated)) ? new Date(data.generated || data.feed.generated) : null;
     document.getElementById('status-left').textContent = `${allItems.length} items`;
     document.getElementById('status-right').textContent = generated
       ? `Last updated ${generated.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`
