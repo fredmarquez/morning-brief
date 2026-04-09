@@ -1,7 +1,15 @@
 {
   "feed": {
-    "generated": "2026-04-09T14:19:19.630Z",
+    "generated": "2026-04-09T14:21:19.814Z",
     "items": [
+      {
+        "title": "Silicon Valley in Convenience Store Snack Aisles",
+        "url": "https://www.inc.com/elie-katz/silicon-valley-in-convenience-store-snack-aisles/91329007",
+        "summary": "There is an unlikely AI revolution at the corner store that is improving efficiency.",
+        "published": "2026-04-09T14:09:58.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
       {
         "title": "CoreWeave Strikes $21 Billion AI Computing Deal With Meta",
         "url": "https://www.bloomberg.com/news/videos/2026-04-09/coreweave-strikes-21-billion-ai-deal-with-meta-video",
@@ -151,14 +159,6 @@
         "url": "https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy",
         "summary": "Article URL: https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy\nComments URL: https://news.ycombinator.com/item?id=47702499\nPoints: 15\n# Comments: 0",
         "published": "2026-04-09T11:56:56.000Z",
-        "source": "Unknown",
-        "category": "tech"
-      },
-      {
-        "title": "Samsung to Invest $4 Billion in Chip Packaging Site in Vietnam",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam",
-        "summary": "Samsung Electronics Co. plans a $4 billion outlay to build a chip packaging plant in northern Vietnam, as the country’s largest foreign investor expands its footprint in the country.",
-        "published": "2026-04-09T11:44:18.000Z",
         "source": "Unknown",
         "category": "tech"
       }
