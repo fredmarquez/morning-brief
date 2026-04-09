@@ -1,60 +1,164 @@
 {
   "feed": {
-    "generated": "2026-04-09T14:12:07.689Z",
+    "generated": "2026-04-09T14:19:19.630Z",
     "items": [
       {
-        "title": "Claude, OpenClaw and the new reality: AI agents are here — and so is the chaos",
-        "url": "https://venturebeat.com/infrastructure/claude-openclaw-and-the-new-reality-ai-agents-are-here-and-so-is-the-chaos",
-        "summary": "The age of agentic AI is upon us — whether we like it or not. What started with an innocent question-answer banter with ChatGPT back in 2022 has become an existential debate on job security and the rise of the machines. More recently, fears of reaching artificial general intelligence (AGI) have beco",
-        "published": "2026-04-08T22:26:37.000Z",
+        "title": "CoreWeave Strikes $21 Billion AI Computing Deal With Meta",
+        "url": "https://www.bloomberg.com/news/videos/2026-04-09/coreweave-strikes-21-billion-ai-deal-with-meta-video",
+        "summary": "CoreWeave has struck a $21 billion deal to supply computing power to Meta Platforms through 2032, deepening its business with the social media giant. Anurag Rana has more on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+        "published": "2026-04-09T14:09:03.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "Goodbye, Llama? Meta launches new proprietary AI model Muse Spark — first since Superintelligence Labs' formation",
-        "url": "https://venturebeat.com/technology/goodbye-llama-meta-launches-new-proprietary-ai-model-muse-spark-first-since",
-        "summary": "Meta has been one of the most interesting companies of the generative AI era — initially gaining a loyal and huge following of users for the release of its mostly open source Llama family of large language models (LLMs) beginning in early 2023 but coming to screeching halt last year after Llama 4 de",
-        "published": "2026-04-08T20:34:01.000Z",
+        "title": "How Alignment Built the Bucks and Why It Could Be Their Downfall",
+        "url": "https://www.inc.com/christophercason/how-alignment-built-the-bucks-and-why-it-could-be-their-downfall/91327795",
+        "summary": "Winning together is easy. Staying aligned? That’s the hard part.",
+        "published": "2026-04-09T14:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Meta Just Took a Big Step to Catch Up in the AI Race. Here’s Why It Matters",
+        "url": "https://www.inc.com/leila-sheridan/meta-just-took-a-big-step-to-catch-up-in-the-ai-race-heres-why-it-matters/91328642",
+        "summary": "Meta’s newest model signals a major push to close the gap with rivals—and reshape how AI shows up in its products.",
+        "published": "2026-04-09T13:42:11.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "How Starlink Is Helping Iranians Evade Wartime Internet Blackout",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/how-elon-musk-s-starlink-is-being-used-to-evade-iran-s-internet-blackouts",
+        "summary": "The near-total shutdown of the internet in Iran is the world’s longest nationwide blackout since the Arab Spring in the early 2010s.",
+        "published": "2026-04-09T13:41:02.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "LLM-referred traffic converts at 30-40% — and most enterprises aren't optimizing for it",
-        "url": "https://venturebeat.com/technology/llm-referred-traffic-converts-at-30-40-and-most-enterprises-arent-optimizing",
-        "summary": "For more than two decades, digital discovery has operated on a simple model: search, scan, click, decide. That worked when humans were the ones doing the web searching; but with the advent of AI agents, the primary consumer of information is no longer always human.This is giving rise to a new paradi",
-        "published": "2026-04-08T19:04:30.000Z",
+        "title": "Meta removes ads for social media addiction litigation",
+        "url": "https://www.axios.com/2026/04/09/meta-social-media-addiction-ads",
+        "summary": "Article URL: https://www.axios.com/2026/04/09/meta-social-media-addiction-ads\nComments URL: https://news.ycombinator.com/item?id=47703419\nPoints: 35\n# Comments: 12",
+        "published": "2026-04-09T13:23:50.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "New framework lets AI agents rewrite their own skills without retraining the underlying model",
-        "url": "https://venturebeat.com/orchestration/new-framework-lets-ai-agents-rewrite-their-own-skills-without-retraining-the",
-        "summary": "One major challenge in deploying autonomous agents is building systems that can adapt to changes in their environments without the need to retrain the underlying large language models (LLMs).Memento-Skills, a new framework developed by researchers at multiple universities, addresses this bottleneck ",
-        "published": "2026-04-08T17:18:21.000Z",
+        "title": "Former DeepMind Researchers Bet on Visual AI With New Startup",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/ex-google-deepmind-researchers-debut-startup-called-elorian-focused-on-visual-ai",
+        "summary": "Former Google DeepMind researcher Andrew Dai believes that the artificial intelligence models at big labs have the intelligence of a 3-year-old kid, at least when it comes to making sense of visual prompts.",
+        "published": "2026-04-09T13:00:05.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "Block introduces Managerbot, a proactive Square AI agent and the clearest proof point yet for Jack Dorsey’s AI bet",
-        "url": "https://venturebeat.com/data/block-introduces-managerbot-a-proactive-square-ai-agent-and-the-clearest",
-        "summary": "Block today unveiled Managerbot, a new AI agent embedded in the Square platform that proactively monitors a seller&#x27;s business, identifies emerging problems, and proposes actionable solutions — without the seller ever having to ask a question. The product marks the most tangible manifestation of",
-        "published": "2026-04-07T22:14:30.000Z",
+        "title": "Intel Wins Google Commitment to Use Xeon Chips in Data Centers",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/intel-wins-google-commitment-to-use-xeon-chips-in-data-centers",
+        "summary": "Intel Corp., trying to promote the use of its technology in data centers, said Alphabet Inc.’s Google has committed to using future generations of its Xeon processors and other chips.",
+        "published": "2026-04-09T13:00:00.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "Amazon S3 Files gives AI agents a native file system workspace, ending the object-file split that breaks multi-agent pipelines",
-        "url": "https://venturebeat.com/data/amazon-s3-files-gives-ai-agents-a-native-file-system-workspace-ending-the",
-        "summary": "AI agents run on file systems using standard tools to navigate directories and read file paths. The challenge, however, is that there is a lot of enterprise data in object storage systems, notably Amazon S3. Object stores serve data through API calls, not file paths. Bridging that gap has required a",
-        "published": "2026-04-07T21:36:00.000Z",
+        "title": "SiFive to Fuel Data Center Push With $400 Million Funding Round",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/sifive-to-fuel-data-center-push-with-400-million-funding-round",
+        "summary": "Chip startup SiFive Inc. received $400 million in funding from a group of investors led by Atreides Management, money the company plans to use to get a bigger foothold in AI data centers.",
+        "published": "2026-04-09T13:00:00.000Z",
         "source": "Unknown",
         "category": "tech"
       },
       {
-        "title": "Anthropic says its most powerful AI cyber model is too dangerous to release publicly — so it built Project Glasswing",
-        "url": "https://venturebeat.com/technology/anthropic-says-its-most-powerful-ai-cyber-model-is-too-dangerous-to-release",
-        "summary": "Anthropic on Tuesday announced Project Glasswing, a sweeping cybersecurity initiative that pairs an unreleased frontier AI model — Claude Mythos Preview — with a coalition of twelve major technology and finance companies in an effort to find and patch software vulnerabilities across the world&#x27;s",
-        "published": "2026-04-07T21:35:44.000Z",
+        "title": "How Pizza Tycoon simulated traffic on a 25 MHz CPU",
+        "url": "https://pizzalegacy.nl/blog/traffic-system.html",
+        "summary": "Article URL: https://pizzalegacy.nl/blog/traffic-system.html\nComments URL: https://news.ycombinator.com/item?id=47703123\nPoints: 56\n# Comments: 9",
+        "published": "2026-04-09T12:57:10.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "CoreWeave Tapping Junk Debt Market After Meta AI Computing Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/coreweave-tapping-junk-debt-market-after-meta-ai-computing-deal",
+        "summary": "CoreWeave Inc. is tapping the junk bond market after expanding a deal to supply artificial intelligence computing power to Meta Platforms Inc.",
+        "published": "2026-04-09T12:52:19.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Am I German or Autistic?",
+        "url": "https://german.millermanschool.com/",
+        "summary": "Article URL: https://german.millermanschool.com/\nComments URL: https://news.ycombinator.com/item?id=47703072\nPoints: 112\n# Comments: 85",
+        "published": "2026-04-09T12:52:12.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Show HN: 41 years sea surface temperature anomalies",
+        "url": "https://ssta.willhelps.org",
+        "summary": "Article URL: https://ssta.willhelps.org\nComments URL: https://news.ycombinator.com/item?id=47702791\nPoints: 54\n# Comments: 18",
+        "published": "2026-04-09T12:25:57.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Launch HN: Relvy (YC F24) – On-call runbooks, automated",
+        "url": "https://www.relvy.ai",
+        "summary": "Hey HN! We are Bharath, and Simranjit from Relvy AI (https://www.relvy.ai). Relvy automates on-call runbooks for software engineering teams. It is an AI agent equipped with tools that can analyze telemetry data and code at scale, helping teams debug and resolve production issues in minutes. Here’s a",
+        "published": "2026-04-09T12:11:56.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "A WebGPU Implementation of Augmented Vertex Block Descent",
+        "url": "https://github.com/jure/webphysics",
+        "summary": "Article URL: https://github.com/jure/webphysics\nComments URL: https://news.ycombinator.com/item?id=47702541\nPoints: 12\n# Comments: 0",
+        "published": "2026-04-09T12:01:31.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Your Employees Experience the Brand Before Customers Do",
+        "url": "https://www.inc.com/rebecca-hoeft/your-employees-experience-the-brand-before-customers-do/91328206",
+        "summary": "Leadership behavior shapes culture long before marketing ever reaches the market.",
+        "published": "2026-04-09T12:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Your One-on-Ones Aren’t Working. Here’s Why",
+        "url": "https://www.inc.com/netta-jenkins/your-one-on-ones-arent-working-heres-why/91325899",
+        "summary": "If your meetings feel like status updates, you’re missing the point.",
+        "published": "2026-04-09T12:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "How Ryan Blaney Is Building a Business Beyond NASCAR",
+        "url": "https://www.inc.com/christophercason/how-ryan-blaney-is-building-a-business-beyond-nascar/91323854",
+        "summary": "Most athletes say yes to everything. He built a strategy around saying no.",
+        "published": "2026-04-09T12:00:00.000Z",
+        "source": "Inc. Magazine",
+        "category": "smb"
+      },
+      {
+        "title": "Marsh’s Mercer Raises $3.8 Billion for Private Investments",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/marsh-s-mercer-raises-3-8-billion-for-private-investments",
+        "summary": "Marsh & McLennan Cos’ Mercer has raised just over $3.8 billion for private investments.",
+        "published": "2026-04-09T12:00:00.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Lichess and Take Take Take Sign Cooperation Agreement",
+        "url": "https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy",
+        "summary": "Article URL: https://lichess.org/@/Lichess/blog/lichess-and-take-take-take-sign-cooperation-agreement/DZS0S0Dy\nComments URL: https://news.ycombinator.com/item?id=47702499\nPoints: 15\n# Comments: 0",
+        "published": "2026-04-09T11:56:56.000Z",
+        "source": "Unknown",
+        "category": "tech"
+      },
+      {
+        "title": "Samsung to Invest $4 Billion in Chip Packaging Site in Vietnam",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam",
+        "summary": "Samsung Electronics Co. plans a $4 billion outlay to build a chip packaging plant in northern Vietnam, as the country’s largest foreign investor expands its footprint in the country.",
+        "published": "2026-04-09T11:44:18.000Z",
         "source": "Unknown",
         "category": "tech"
       }
