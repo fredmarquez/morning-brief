@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1a1815;
+    --ink-mid: #4a4540;
+    --ink-light: #8a847d;
+    --ink-faint: #c8c2bb;
+    --paper: #f7f4ef;
+    --paper-warm: #ede9e2;
+    --accent: #c84b2f;
+    --accent-light: #f5ede9;
+    --tag-ops: #2d4a3e;
+    --tag-ops-bg: #e8f0ec;
+    --tag-ai: #1a3a5c;
+    --tag-ai-bg: #e6eef5;
+    --tag-nocode: #4a2d6e;
+    --tag-nocode-bg: #ede8f5;
+    --tag-smb: #5c3a1a;
+    --tag-smb-bg: #f5ede6;
+    --tag-tech: #2a3a2a;
+    --tag-tech-bg: #e8ede8;
+    --tag-ainews: #5c1a1a;
+    --tag-ainews-bg: #f5e6e6;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .masthead {
+    border-bottom: 1.5px solid var(--ink);
+    padding: 2rem 3rem 1.25rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .masthead-left { display: flex; flex-direction: column; gap: 0.2rem; }
+
+  .pub-name {
+    font-family: 'Instrument Serif', serif;
+    font-size: 2.2rem;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    color: var(--ink);
+  }
+
+  .pub-tagline {
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--ink-light);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .masthead-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .datestamp {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-mid);
+    letter-spacing: 0.05em;
+  }
+
+  .refresh-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--ink-light);
+    background: none;
+    border: 0.5px solid var(--ink-faint);
+    padding: 5px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: all 0.15s;
+  }
+  .refresh-btn:hover { color: var(--ink); border-color: var(--ink-mid); }
+  .refresh-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .filter-bar {
+    padding: 0.9rem 3rem;
+    border-bottom: 0.5px solid var(--ink-faint);
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-label {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--ink-light);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 4px;
+  }
+
+  .filter-pill {
+    font-size: 11px;
+    font-weight: 400;
+    padding: 4px 11px;
+    border-radius: 99px;
+    border: 0.5px solid var(--ink-faint);
+    background: transparent;
+    color: var(--ink-light);
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .filter-pill:hover { border-color: var(--ink-mid); color: var(--ink-mid); }
+  .filter-pill.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+  .feed-status {
+    padding: 0.6rem 3rem;
+    font-size: 11px;
+    color: var(--ink-light);
+    border-bottom: 0.5px solid var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .grid {
+    padding: 2rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .card {
+    padding: 1.4rem 1.5rem 1.4rem 0;
+    border-right: 0.5px solid var(--ink-faint);
+    border-bottom: 0.5px solid var(--ink-faint);
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .card:nth-child(3n) { border-right: none; padding-right: 0; }
+  .card:nth-child(3n+1) { padding-left: 0; }
+  .card:nth-child(3n+2) { padding-left: 1.5rem; }
+  .card:nth-child(3n) { padding-left: 1.5rem; }
+
+  .card-top { display: flex; align-items: center; justify-content: space-between; }
+
+  .cat-tag {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 2px;
+  }
+  .cat-ops    { background: var(--tag-ops-bg);    color: var(--tag-ops); }
+  .cat-ai     { background: var(--tag-ai-bg);     color: var(--tag-ai); }
+  .cat-nocode { background: var(--tag-nocode-bg); color: var(--tag-nocode); }
+  .cat-smb    { background: var(--tag-smb-bg);    color: var(--tag-smb); }
+  .cat-tech   { background: var(--tag-tech-bg);   color: var(--tag-tech); }
+  .cat-ainews { background: var(--tag-ainews-bg); color: var(--tag-ainews); }
+
+  .card-age {
+    font-size: 10px;
+    font-weight: 300;
+    color: var(--ink-faint);
+  }
+
+  .card-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.05rem;
+    line-height: 1.35;
+    color: var(--ink);
+    text-decoration: none;
+    display: block;
+    transition: color 0.12s;
+  }
+  .card-title:hover { color: var(--accent); }
+
+  .card-source {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--ink-light);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .card-summary {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: var(--ink-mid);
+  }
+
+  .card-link {
+    font-size: 11px;
+    color: var(--accent);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: auto;
+    padding-top: 0.3rem;
+    transition: opacity 0.12s;
+  }
+  .card-link:hover { opacity: 0.7; }
+  .card-link svg { flex-shrink: 0; }
+
+  .empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 4rem 1rem;
+    color: var(--ink-light);
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .loading-overlay {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    gap: 1rem;
+  }
+
+  .loading-bar {
+    width: 120px;
+    height: 1px;
+    background: var(--ink-faint);
+    position: relative;
+    overflow: hidden;
+  }
+  .loading-bar::after {
+    content: '';
+    position: absolute;
+    left: -40%;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background: var(--ink-mid);
+    animation: slide 1s ease-in-out infinite;
+  }
+  @keyframes slide { 0% { left: -40%; } 100% { left: 100%; } }
+
+  .loading-text {
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--ink-light);
+    letter-spacing: 0.08em;
+  }
+
+  .footer {
+    padding: 1.5rem 3rem;
+    border-top: 0.5px solid var(--ink-faint);
+    font-size: 11px;
+    font-weight: 300;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 900px) {
+    .masthead, .filter-bar, .feed-status, .grid, .footer { padding-left: 1.5rem; padding-right: 1.5rem; }
+    .grid { grid-template-columns: 1fr 1fr; }
+    .card:nth-child(3n) { border-right: 0.5px solid var(--ink-faint); }
+    .card:nth-child(2n) { border-right: none; }
+    .card:nth-child(3n+1), .card:nth-child(3n+2), .card:nth-child(3n) { padding-left: 0; padding-right: 0; }
+    .card:nth-child(odd) { padding-right: 1.2rem; }
+    .card:nth-child(even) { padding-left: 1.2rem; }
+    .card:nth-child(2n) { padding-right: 0; }
+  }
+
+  @media (max-width: 580px) {
+    .pub-name { font-size: 1.6rem; }
+    .grid { grid-template-columns: 1fr; }
+    .card { border-right: none !important; padding-left: 0 !important; padding-right: 0 !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-left">
+    <div class="pub-name">Morning Brief</div>
+    <div class="pub-tagline">Business Ops · AI · Automation · Strategy</div>
+  </div>
+  <div class="masthead-right">
+    <div class="datestamp" id="datestamp"></div>
+    <button class="refresh-btn" id="refresh-btn" onclick="loadFeed(true)">↻ Refresh</button>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <span class="filter-label">Filter</span>
+  <button class="filter-pill active" data-cat="ops">Ops & process</button>
+  <button class="filter-pill active" data-cat="ai">AI & automation</button>
+  <button class="filter-pill active" data-cat="nocode">No-code & Notion</button>
+  <button class="filter-pill active" data-cat="smb">Small biz strategy</button>
+  <button class="filter-pill active" data-cat="tech">Tech news</button>
+  <button class="filter-pill active" data-cat="ainews">AI news</button>
+</div>
+
+<div class="feed-status">
+  <span id="status-left">Loading…</span>
+  <span id="status-right"></span>
+</div>
+
+<main class="grid" id="grid">
+  <div class="loading-overlay">
+    <div class="loading-bar"></div>
+    <div class="loading-text">Fetching your brief</div>
+  </div>
+</main>
+
+<footer class="footer">
+  <span>Powered by n8n + Vercel</span>
+  <span id="footer-generated"></span>
+</footer>
+
+<script>
+const CAT_LABELS = { ops: 'Ops & process', ai: 'AI & automation', nocode: 'No-code', smb: 'Strategy', tech: 'Tech', ainews: 'AI news' };
+
+let allItems = [];
+
+document.getElementById('datestamp').textContent = new Date().toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+});
+
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.classList.toggle('active');
+    renderGrid();
+  });
+});
+
+function getAge(iso) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const h = Math.floor(diff / 3600000);
+  if (h < 1) return 'just now';
+  if (h < 24) return `${h}h ago`;
+  return `${Math.floor(h/24)}d ago`;
+}
+
+function renderGrid() {
+  const active = new Set([...document.querySelectorAll('.filter-pill.active')].map(b => b.dataset.cat));
+  const filtered = allItems.filter(i => active.has(i.category));
+  const grid = document.getElementById('grid');
+  document.getElementById('status-left').textContent = `${filtered.length} of ${allItems.items ? allItems.items.length : allItems.length} items`;
+
+  if (!filtered.length) {
+    grid.innerHTML = '<div class="empty-state">No items match the selected filters.</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(item => `
+    <article class="card">
+      <div class="card-top">
+        <span class="cat-tag cat-${item.category}">${CAT_LABELS[item.category] || item.category}</span>
+        <span class="card-age">${getAge(item.published)}</span>
+      </div>
+      <a class="card-title" href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+      <div class="card-source">${item.source}</div>
+      <div class="card-summary">${item.summary}</div>
+      <a class="card-link" href="${item.url}" target="_blank" rel="noopener">
+        Read
+        <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 8L8 2M8 2H4M8 2V6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </article>
+  `).join('');
+}
+
+async function loadFeed(force = false) {
+  const btn = document.getElementById('refresh-btn');
+  btn.disabled = true;
+
+  try {
+    const res = await fetch(`./feed.json?t=${force ? Date.now() : Math.floor(Date.now()/3600000)}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allItems = data.items || [];
+
+    const generated = data.generated ? new Date(data.generated) : null;
+    document.getElementById('status-left').textContent = `${allItems.length} items`;
+    document.getElementById('status-right').textContent = generated
+      ? `Last updated ${generated.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`
+      : '';
+    document.getElementById('footer-generated').textContent = generated
+      ? `Generated ${generated.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} at ${generated.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })}`
+      : '';
+
+    renderGrid();
+  } catch(err) {
+    document.getElementById('grid').innerHTML = `<div class="empty-state">Could not load feed.json.<br><small style="opacity:0.6;font-size:11px">${err.message}</small></div>`;
+    document.getElementById('status-left').textContent = 'Error loading feed';
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+loadFeed();
+</script>
+</body>
+</html>
